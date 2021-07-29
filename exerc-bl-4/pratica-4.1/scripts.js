@@ -1,4 +1,6 @@
-let a = 5;
+/* Exercício 1 */
+
+/* let a = 5;
 let b = 9;
 
 let soma = a + b;
@@ -14,4 +16,16 @@ let divide = a / b;
 console.log(divide);
 
 let modulo = a % b;
-console.log(modulo);
+console.log(modulo); */
+
+/* Exercício 2 */
+
+let a = 5;
+let b = 9;
+
+if (a > b) {
+    console.log("a é maior que b")
+}
+else {
+    console.log("b é maior que a")
+}
