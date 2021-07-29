@@ -32,7 +32,7 @@ else {
 
 /* Exercício 3 */
 
-let a = 5;
+/* let a = 5;
 let b = 9;
 let c = 3;
 
@@ -44,4 +44,18 @@ else if (a < b && c < b) {
 }
 else {
     console.log("c é maior que a e b")
+} */
+
+/* Exercício 4 */
+
+let a = 5;
+
+if (a > 0) {
+    console.log("Positive!");
+}
+else if (a < 0) {
+    console.log("Negative!")
+}
+else {
+    console.log("Zero!")
 }
