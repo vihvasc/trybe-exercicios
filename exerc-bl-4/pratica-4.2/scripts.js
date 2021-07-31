@@ -49,7 +49,7 @@ else {
 
 //Exercício 5 - Utilizando for , descubra qual o maior valor contido no array e imprima-o
 
-let maiorNumero = 0;
+/* let maiorNumero = 0;
 
 for (let index = 0; index < numbers.length; index += 1) {
     if (maiorNumero < numbers[index]) {
@@ -57,4 +57,25 @@ for (let index = 0; index < numbers.length; index += 1) {
     }
 }
 
-console.log(maiorNumero)
+console.log(maiorNumero) */
+
+//Exercício 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+
+let resto = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+    //console.log(numbers[index]);
+
+    if (numbers[index] % 2 !== 0) { 
+        resto += 1;
+        //se numbers na posição index divido por 2 for diferente de 0 o número é ímpar
+      }
+    }
+    
+    if (resto === 0) {
+        console.log('nenhum valor ímpar encontrado');
+        //se resto for igual a zero o número é par
+    } 
+    else {
+        console.log(resto);
+    }
