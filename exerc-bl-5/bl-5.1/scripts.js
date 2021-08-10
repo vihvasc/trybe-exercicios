@@ -4,7 +4,6 @@
         - document.getElementsByClassName()
         - document.getElementsByTagName()
 
- Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
  Crie uma função que mude a cor do quadrado vermelho para branco.
  Crie uma função que corrija o texto da tag <h1>.
  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
@@ -16,7 +15,12 @@
  }
  pTagText();
 
-function squareColor() {
+function squareColorA() {
     document.querySelector(".main-content").style.backgroundColor = "rgb(76, 164, 109)";
 }
-squareColor();
+squareColorA();
+
+function squareColorB() {
+    document.querySelector(".center-content").style.backgroundColor = "white";
+}
+squareColorB();
