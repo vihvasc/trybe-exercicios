@@ -29,7 +29,10 @@ function newTitle () {
 newTitle();
 
 function changeToUpperCase() {
-    document.querySelector("p").innerText.toUpperCase();
+    let tagP = document.querySelectorAll("p");
+    for (index = 0; index < tagP.length; index += 1) {
+        tagP[index].innerText = tagP[index].innerText.toUpperCase();
+    }
 }
 changeToUpperCase();
 
